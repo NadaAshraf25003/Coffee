@@ -23,11 +23,11 @@ window.addEventListener('scroll', function() {
     // Check if the content section is in the viewport
     if (sectionTop <= 0) {
         header.classList.add('white-bg'); // Add class to change background
-        logo.src = '/Coffee_Shop/images/logo-1.png'; // Change logo when in viewport
+        logo.src = 'images/logo-1.png'; // Change logo when in viewport
 
     } else {
         header.classList.remove('white-bg'); // Remove class if not in viewport
-        logo.src = '/Coffee_Shop/images/logo-2.png'; // Revert to default logo
+        logo.src = 'images/logo-2.png'; // Revert to default logo
 
     }
 });
