@@ -649,9 +649,7 @@ footer a,footer p,footer span{
     font-weight: 500;
     
 }
-.footer .container .second-footer .s3 p{
-    margin-right: 30px;
-}
+
 
 .footer .container{
     display: grid;
