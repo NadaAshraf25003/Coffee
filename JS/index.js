@@ -4,9 +4,9 @@ let rightArrow = document.querySelector(".right");
 let videoElement = document.getElementById("background-video"); 
 
 let images = [
-    "/Coffee_Shop/images/pexels-pixabay-260922.jpg",
-    "/Coffee_Shop/images/pexels-apgpotr-702251.jpg", 
-    "/Coffee_Shop/images/pexels-apgpotr-683039.jpg" 
+    "images/pexels-pixabay-260922.jpg",
+    "images/pexels-apgpotr-702251.jpg", 
+    "images/pexels-apgpotr-683039.jpg" 
 ];
 
 let currentIndex = 0; 
@@ -109,3 +109,13 @@ ADD_TO_CART.forEach((button)=>{
     });
 });
 // Add to Cart end
+
+
+// Dark mode start 
+const DarkBtn=document.querySelector("#DarkBtn");
+const Section2=document.querySelector(".Section2");
+const Section4=document.querySelector(".Section4");
+DarkBtn.addEventListener("click",()=>{
+    Section4.classList.toggle("DarkBtn_toggle");
+})
+// Dark mode end
