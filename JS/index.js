@@ -83,12 +83,12 @@ pic.forEach((button)=>{
         let product=button.getAttribute("data-product");
         let quantity=button.getAttribute("data-quantity");
         let Products={product,quantity};
-        const ProductsItem=JSON.parse(localStorage.getItem("ProductsItem")) || [];
+        const ProductsItem=JSON.parse(sessionStorage.getItem("ProductsItem")) || [];
         ProductsItem.push(Products);
-        localStorage.setItem("ProductsItem",JSON.stringify(ProductsItem));
+        sessionStorage.setItem("ProductsItem",JSON.stringify(ProductsItem));
     });
 });
-console.log(localStorage.getItem("ProductsItem"))
+console.log(sessionStorage.getItem("ProductsItem"))
 // get the src of images end
 
 
@@ -103,9 +103,9 @@ ADD_TO_CART.forEach((button)=>{
         const price=button.getAttribute("data-price");
         const quantity=button.getAttribute("data-quantity");
         const cartItem={id,title,image,price,quantity};
-        const cart=JSON.parse(localStorage.getItem("cart")) || [];
+        const cart=JSON.parse(sessionStorage.getItem("cart")) || [];
         cart.push(cartItem);
-        localStorage.setItem("cart",JSON.stringify(cart));
+        sessionStorage.setItem("cart",JSON.stringify(cart));
     });
 });
 // Add to Cart end
