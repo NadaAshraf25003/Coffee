@@ -404,7 +404,7 @@ header .search-bar-container label:hover{
 
 /* start landing */
 .landing{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/Coffee_Shop/images/A-Brief-Guide-to-Espresso-Drinks-1014x293.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("images/A-Brief-Guide-to-Espresso-Drinks-1014x293.jpg");
     background-size: cover;
     background-position: center;
     height: 410px;
@@ -669,7 +669,7 @@ footer .date{
 
 .footer .container .first-footer{
     grid-area: "ff";
-    background-image: url("/Coffee_Shop/images/footer1.jpg");
+    background-image: url("images/footer1.jpg");
     background-size: cover;
     display: grid;
     padding: 5.5rem 4rem;
