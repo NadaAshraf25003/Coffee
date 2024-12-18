@@ -10,9 +10,6 @@
         --forth:#FFFFFF;
         --fifth:#543f2a;
     }
-.footer .container .second-footer .s3{
-    margin-right: 40px;
-}
     :root{
         --color-white: #fff;
         --main-color: #c7a17a;
@@ -1740,7 +1737,7 @@ footer .date{
     justify-content: space-between;
     align-items:center;
     padding-left: 47px;
-    padding-right: 70px;
+    padding-right: 100px;
     
 
 }
