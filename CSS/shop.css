@@ -1400,6 +1400,12 @@ footer a.mail:hover{
     .footer .container .second-footer .s2{
         margin: 0px 15px !important;
     }
+       .footer .container .second-footer{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    
+    }
 }
 
 @media (min-width: 701px) and (max-width: 1000px){
