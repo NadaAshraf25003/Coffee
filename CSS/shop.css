@@ -398,7 +398,7 @@ header .search-bar-container label:hover{
 
 /* start aboutUs */
 .aboutUs{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.321)),url(/Coffee_Shop/images/shop.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.321)),url(../images/shop.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1231,7 +1231,7 @@ footer .date{
 
 .footer .container .first-footer{
     grid-area: "ff";
-    background-image: url("/Coffee_Shop/images/footer1.jpg");
+    background-image: url("../images/footer1.jpg");
     background-size: cover;
     display: grid;
     padding: 5.5rem 4rem;
