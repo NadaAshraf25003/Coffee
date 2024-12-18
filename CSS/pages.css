@@ -399,7 +399,7 @@ header .search-bar-container label:hover{
 
 /* start aboutUs */
 .aboutUs{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.321)),url(/Coffee_Shop/images/shop.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.321)),url(../images/shop.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -410,7 +410,7 @@ header .search-bar-container label:hover{
     width: 100%;   
 }
 .aboutUsTeam{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.321)),url(/Coffee_Shop/images/team.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.321)),url(../images/team.jpg);
 }
 
 .aboutUs h2{
@@ -762,7 +762,7 @@ header .search-bar-container label:hover{
 
 /* contactus start  */
 .contactus_home{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.321)),url(/Coffee_Shop/images/contact_uc.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.321)),url(../images/contact_uc.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -877,7 +877,7 @@ header .search-bar-container label:hover{
 /* contactus end  */
 /* Process start  */
 .Process{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.321)),url(/Coffee_Shop/images/OurProcess.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.321)),url(../images/OurProcess.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -1138,7 +1138,7 @@ footer .date{
 
 .footer .container .first-footer{
     grid-area: "ff";
-    background-image: url("/Coffee_Shop/images/footer1.jpg");
+    background-image: url("../ images/footer1.jpg");
     background-size: cover;
     display: grid;
     padding: 5.5rem 4rem;
