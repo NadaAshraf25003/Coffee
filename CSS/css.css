@@ -10,6 +10,9 @@
         --forth:#FFFFFF;
         --fifth:#543f2a;
     }
+.footer .container .second-footer .s3{
+    margin-right: 40px;
+}
     :root{
         --color-white: #fff;
         --main-color: #c7a17a;
