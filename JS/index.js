@@ -111,11 +111,11 @@ ADD_TO_CART.forEach((button)=>{
 // Add to Cart end
 
 
-// Dark mode start 
-const DarkBtn=document.querySelector("#DarkBtn");
-const Section2=document.querySelector(".Section2");
-const Section4=document.querySelector(".Section4");
-DarkBtn.addEventListener("click",()=>{
-    Section4.classList.toggle("DarkBtn_toggle");
-})
-// Dark mode end
+// // Dark mode start 
+// const DarkBtn=document.querySelector("#DarkBtn");
+// const Section2=document.querySelector(".Section2");
+// const Section4=document.querySelector(".Section4");
+// DarkBtn.addEventListener("click",()=>{
+//     Section4.classList.toggle("DarkBtn_toggle");
+// })
+// // Dark mode end
