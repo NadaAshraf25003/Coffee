@@ -38,7 +38,7 @@ popup.addEventListener('click', (event) => {
 
 prevButton.addEventListener('click', () => {
     currentIndex2 = (currentIndex2 > 0) ? currentIndex2 - 1 : images_slider.length - 1;
-    popupImage.src = images_slider[currentIndex].src;
+    popupImage.src = images_slider[currentIndex2].src;
     updateCounter();
 });
 
