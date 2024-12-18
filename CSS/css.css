@@ -1720,7 +1720,7 @@ footer .date{
 
 .footer .container .first-footer{
     grid-area: "ff";
-    background-image: url("images/footer1.jpg");
+    background-image: url("../images/footer1.jpg");
     background-size: cover;
     display: grid;
     padding: 5.5rem 4rem;
