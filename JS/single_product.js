@@ -65,10 +65,10 @@ function src_of_img(){
 ProductContain.forEach(item => {
    if(item.product==1){
         single_image.forEach((button)=>{
-        button.src="/Coffee_Shop/images/product-image-1.jpg"});
+        button.src="../images/product-image-1.jpg"});
         name.innerHTML="Paper Pouch";
         new_price.innerHTML="$46.00";
-        image="/Coffee_Shop/images/product-image-1.jpg";
+        image="../images/product-image-1.jpg";
         id="1";
         title="Paper Pouch";
         price="46.00";
@@ -76,10 +76,10 @@ ProductContain.forEach(item => {
    }
    else if(item.product==2){
         single_image.forEach((button)=>{
-        button.src="/Coffee_Shop/images/product-image-2.jpg"});
+        button.src="../images/product-image-2.jpg"});
         name.innerHTML="Paper Bag";
         new_price.innerHTML="$46.00";
-        image="/Coffee_Shop/images/product-image-2.jpg";
+        image="../images/product-image-2.jpg";
         id="2";
         title="Paper Bag";
         price="46.00";
@@ -87,10 +87,10 @@ ProductContain.forEach(item => {
    }
    else if(item.product==3){
         single_image.forEach((button)=>{
-        button.src="/Coffee_Shop/images/product-image-3-633x633.jpg"});
+        button.src="../images/product-image-3-633x633.jpg"});
         name.innerHTML="Paper Pouch";
         new_price.innerHTML="$46.00";
-        image="/Coffee_Shop/images/product-image-3-633x633.jpg";
+        image="../images/product-image-3-633x633.jpg";
         id="3";
         title="Paper Pouch";
         price="46.00";
@@ -98,10 +98,10 @@ ProductContain.forEach(item => {
    }
    else if(item.product==4){
         single_image.forEach((button)=>{
-        button.src="/Coffee_Shop/images/product-image-4-633x633.jpg"});
+        button.src="../images/product-image-4-633x633.jpg"});
         name.innerHTML="Coffee Pot";
         new_price.innerHTML="$46.00";
-        image="/Coffee_Shop/images/product-image-4-633x633.jpg";
+        image="../images/product-image-4-633x633.jpg";
         id="4";
         title="Coffee Pot";
         price="46.00";
@@ -109,10 +109,10 @@ ProductContain.forEach(item => {
    }
    else if(item.product==5){
         single_image.forEach((button)=>{
-        button.src="/Coffee_Shop/images/product-image-7-1-550x550.jpg"});
+        button.src="../images/product-image-7-1-550x550.jpg"});
         name.innerHTML="Choco Bites";
         new_price.innerHTML="$46.00";
-        image="/Coffee_Shop/images/product-image-7-1-550x550.jpg";
+        image="../images/product-image-7-1-550x550.jpg";
         id="5";
         title="Choco Bites";
         price="46.00";
@@ -120,10 +120,10 @@ ProductContain.forEach(item => {
    }
    else if(item.product==6){
         single_image.forEach((button)=>{
-        button.src="/Coffee_Shop/images/product-image-6-633x633.jpg"});
+        button.src="../images/product-image-6-633x633.jpg"});
         name.innerHTML="Paper Cup";
         new_price.innerHTML="$46.00";
-        image="/Coffee_Shop/images/product-image-6-633x633.jpg";
+        image="../images/product-image-6-633x633.jpg";
         id="6";
         title="Paper Cup";
         price="46.00";
@@ -131,10 +131,10 @@ ProductContain.forEach(item => {
    }
    else if(item.product==7){
         single_image.forEach((button)=>{
-        button.src="/Coffee_Shop/images/product-image-8-1-633x633.jpg"});
+        button.src="../images/product-image-8-1-633x633.jpg"});
         name.innerHTML="Ground Coffee";
         new_price.innerHTML="$46.00";
-        image="/Coffee_Shop/images/product-image-8-1-633x633.jpg";
+        image="../images/product-image-8-1-633x633.jpg";
         id="7";
         title="Ground Coffee";
         price="46.00";
@@ -142,10 +142,10 @@ ProductContain.forEach(item => {
    }
    else if(item.product==8){
         single_image.forEach((button)=>{
-        button.src="/Coffee_Shop/images/product-image-9-1-633x633.jpg"});
+        button.src="../images/product-image-9-1-633x633.jpg"});
         name.innerHTML="Moka Pot";
         new_price.innerHTML="$46.00";
-        image="/Coffee_Shop/images/product-image-9-1-633x633.jpg";
+        image="../images/product-image-9-1-633x633.jpg";
         id="8";
         title="Moka Pot";
         price="46.00";
@@ -153,10 +153,10 @@ ProductContain.forEach(item => {
    }
    else if(item.product==9){
         single_image.forEach((button)=>{
-        button.src="/Coffee_Shop/images/product-image-10-1-633x633.jpg"});
+        button.src="../images/product-image-10-1-633x633.jpg"});
         name.innerHTML="Cafe Bags";
         new_price.innerHTML="$46.00";
-        image="/Coffee_Shop/images/product-image-10-1-633x633.jpg";
+        image="../images/product-image-10-1-633x633.jpg";
         id="9";
         title="Cafe Bags";
         price="46.00";
@@ -164,10 +164,10 @@ ProductContain.forEach(item => {
    }
    else if(item.product==10){
         single_image.forEach((button)=>{
-        button.src="/Coffee_Shop/images/product-image-11-1-633x633.jpg"});
+        button.src="../images/product-image-11-1-633x633.jpg"});
         name.innerHTML="Tea Pot";
         new_price.innerHTML="$46.00";
-        image="/Coffee_Shop/images/product-image-11-1-633x633.jpg";
+        image="../images/product-image-11-1-633x633.jpg";
         id="10";
         title="Tea Pot";
         price="46.00";
@@ -175,10 +175,10 @@ ProductContain.forEach(item => {
    }
    else if(item.product==11){
         single_image.forEach((button)=>{
-        button.src="/Coffee_Shop/images/product5.jpg"});
+        button.src="../images/product5.jpg"});
         name.innerHTML="Paper Pouch";
         new_price.innerHTML="$46.00";
-        image="/Coffee_Shop/images/product5.jpg";
+        image="../images/product5.jpg";
         id="11";
         title="Paper Pouch";
         price="46.00";
@@ -186,10 +186,10 @@ ProductContain.forEach(item => {
    }
    else{
         single_image.forEach((button)=>{
-        button.src="/Coffee_Shop/images/product-image-12-633x633.jpg"});
+        button.src="../images/product-image-12-633x633.jpg"});
         name.innerHTML="Recycled Bags";
         new_price.innerHTML="$46.00";
-        image="/Coffee_Shop/images/product-image-12-633x633.jpg";
+        image="../images/product-image-12-633x633.jpg";
         id="12";
         title="Recycled Bags";
         price="46.00";
