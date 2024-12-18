@@ -4,9 +4,10 @@ let rightArrow = document.querySelector(".right");
 let videoElement = document.getElementById("background-video"); 
 
 let images = [
+    "images/home-1-slider.jpg",
+    "images/home-1-slider-img-2.jpg", 
     "images/pexels-pixabay-260922.jpg",
-    "images/pexels-apgpotr-702251.jpg", 
-    "images/pexels-apgpotr-683039.jpg" 
+    "images/4377324-uhd_3840_2160_25fps.mp4"
 ];
 
 let currentIndex = 0; 
@@ -21,9 +22,9 @@ function updateBackground() {
         landing.style.backgroundImage = ""; // Clear the background image
     } else {
         // If the current item is an image
-        landing.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${images[currentIndex]})`;
+        landing.style.backgroundImage =`linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(${images[currentIndex]})`;
         videoElement.style.display = "none"; // Hide the video
-        videoElement.pause(); // Pause the video
+        videoElement.pause(); // Pause the video
     }
 }
 
