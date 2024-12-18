@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Span_Cart start 
 const Span_Cart=document.querySelector(".Span_Cart");
-const cartBag=JSON.parse(localStorage.getItem("count"));
+const cartBag=JSON.parse(sessionStorage.getItem("count"));
 if(cartBag!=null){
     Span_Cart.innerHTML=cartBag;}
 else Span_Cart.innerHTML=0;
