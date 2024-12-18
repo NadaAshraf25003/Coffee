@@ -391,7 +391,7 @@ header .search-bar-container label:hover{
 
 /* start weOffer */
 .weOffer{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.321)),url(/Coffee_Shop/images/What-we-offer-title-img-800.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.321)),url(../images/What-we-offer-title-img-800.jpg);
     /* background-size: cover; */
     background-position: center;
     background-attachment: fixed;
@@ -479,7 +479,7 @@ header .search-bar-container label:hover{
 }
 
 .offering-holder .offer-box:nth-of-type(1){
-    background-image: url(/Coffee_Shop/images/Offerings-holder-img-1-N.jpg);
+    background-image: url(../images/Offerings-holder-img-1-N.jpg);
     color: var(--color-white);
     
 }
@@ -487,16 +487,16 @@ header .search-bar-container label:hover{
     background-color: #EAE7DE;
 }
 .offering-holder .offer-box:nth-of-type(3){
-    background-image: url(/Coffee_Shop/images/Offerings-holder-img-2.jpg);
+    background-image: url(../images/Offerings-holder-img-2.jpg);
 }
 .offering-holder .offer-box:nth-of-type(4){
-    background-image: url(/Coffee_Shop/images/Offerings-holder-img-3-N.jpg);
+    background-image: url(../images/Offerings-holder-img-3-N.jpg);
 }
 .offering-holder .offer-box:nth-of-type(5){
-    background-image: url(/Coffee_Shop/images/Offerings-holder-img-4-N.jpg);
+    background-image: url(../images/Offerings-holder-img-4-N.jpg);
 }
 .offering-holder .offer-box:nth-of-type(6){
-    background-image: url(/Coffee_Shop/images/Offerings-holder-img-5-N.jpg);
+    background-image: url(../images/Offerings-holder-img-5-N.jpg);
     color: var(--color-white);
 }
 
@@ -729,7 +729,7 @@ footer .date{
 
 .footer .container .first-footer{
     grid-area: "ff";
-    background-image: url("/Coffee_Shop/images/footer1.jpg");
+    background-image: url("../images/footer1.jpg");
     background-size: cover;
     display: grid;
     padding: 5.5rem 4rem;
