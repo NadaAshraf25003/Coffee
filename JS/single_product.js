@@ -60,7 +60,7 @@ minus.addEventListener('click', ()=>{
 const single_image=document.querySelectorAll(".single_image");
 let name=document.querySelector(".name");
 let new_price=document.querySelector(".new");
-const ProductContain=JSON.parse(localStorage.getItem("ProductsItem"));
+const ProductContain=JSON.parse(sessionStorage.getItem("ProductsItem"));
 function src_of_img(){
 ProductContain.forEach(item => {
    if(item.product==1){
@@ -223,7 +223,7 @@ src_of_img();
 
 // del();
 
-// window.onload=()=>{JSON.parse(localStorage.clear())}
+// window.onload=()=>{JSON.parse(sessionStorage.clear())}
 const ADD_TO_CART=document.querySelectorAll(".add_to_cart");
 ADD_TO_CART.forEach((button)=>{
     button.addEventListener("click",()=>{
@@ -233,9 +233,9 @@ ADD_TO_CART.forEach((button)=>{
      //    const price=button.getAttribute("data-price");
      //    const quantity=button.getAttribute("data-quantity");
         const cartItem=src_of_img();
-        const cart=JSON.parse(localStorage.getItem("cart")) || [];
+        const cart=JSON.parse(sessionStorage.getItem("cart")) || [];
         cart.push(cartItem);
-        localStorage.setItem("cart",JSON.stringify(cart));
+        sessionStorage.setItem("cart",JSON.stringify(cart));
     });
 });
 
@@ -247,9 +247,9 @@ pic.forEach((button)=>{
         let product=button.getAttribute("data-product");
         let quantity=button.getAttribute("data-quantity");
         let Products={product,quantity};
-        const ProductsItem=JSON.parse(localStorage.getItem("ProductsItem")) || [];
+        const ProductsItem=JSON.parse(sessionStorage.getItem("ProductsItem")) || [];
         ProductsItem.push(Products);
-        localStorage.setItem("ProductsItem",JSON.stringify(ProductsItem));
+        sessionStorage.setItem("ProductsItem",JSON.stringify(ProductsItem));
     });
 });
 // console.log(localStorage.getItem("ProductsItem"))
