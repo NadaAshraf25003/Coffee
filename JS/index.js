@@ -7,7 +7,7 @@ let images = [
     "images/home-1-slider.jpg",
     "images/home-1-slider-img-2.jpg", 
     "images/pexels-pixabay-260922.jpg",
-    "images/4377324-uhd_3840_2160_25fps.mp4"
+    "images/133988-758552232_small.mp4"
 ];
 
 let currentIndex = 0; 
