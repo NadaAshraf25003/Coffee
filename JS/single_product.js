@@ -43,18 +43,18 @@ minus.addEventListener('click', ()=>{
 
 /* single_product_sliger(+,-) end  */
  
-/* single_product_slider start  */
-let main_image=document.querySelector(".main_image");
-let slider_container=document.querySelector(".slider_container");
-let formclose =document.querySelector('#form-close');
-main_image.addEventListener('click',() =>{
-    slider_container.classList.add('active');   
-})
-formclose.addEventListener('click',() =>{
-    slider_container.classList.remove('active');   
-})
+// /* single_product_slider start  */
+// let main_image=document.querySelector(".main_image");
+// let slider_container=document.querySelector(".slider_container");
+// let formclose =document.querySelector('#form-close');
+// main_image.addEventListener('click',() =>{
+//     slider_container.classList.add('active');   
+// })
+// formclose.addEventListener('click',() =>{
+//     slider_container.classList.remove('active');   
+// })
 
-/* single_product_slider end  */
+// /* single_product_slider end  */
 
 // change the src of images start
 const single_image=document.querySelectorAll(".single_image");
