@@ -201,7 +201,7 @@ const cartFoot=document.querySelector(".cart-foot");
 const empty=document.querySelector(".empty");
 // const Span_Cart=document.querySelector(".Span_Cart");
 function displayCartItems(){
-    const items=JSON.parse(localStorage.getItem("cart"));
+    const items=JSON.parse(sessionStorage.getItem("cart"));
     if(items!=null){
     empty.classList.add('display_empty');
     HeadCartTable.innerHTML=`
@@ -274,15 +274,15 @@ displayCartItems();
 // let plus=document.querySelectorAll(".plus");
 // let num=document.querySelectorAll(".num");
 // const Span_Cart=document.querySelector(".Span_Cart");
-const count=JSON.parse(localStorage.getItem("count"));
+const count=JSON.parse(sessionStorage.getItem("count"));
 Span_Cart.innerHTML=count;
 let cunt=0;
 // plus.forEach((add)=>{
     function del(){
     // add.addEventListener('click', ()=>{
         cunt++;
-        // console.log((JSON.parse(localStorage.getItem("cart"))[0].quantity)+1);
-        // return JSON.parse(localStorage.getItem("cart"))[0].quantity+1;
+        // console.log((JSON.parse(sessionStorage.getItem("cart"))[0].quantity)+1);
+        // return JSON.parse(sessionStorage.getItem("cart"))[0].quantity+1;
         // count.push(cunt);
         // num.forEach((add1)=>{
         // add1.innerHTML=count;})
@@ -296,5 +296,5 @@ let cunt=0;
 // console.log();
 
 function delete_item(){
-    localStorage.removeItem('cart[0]')
+    sessionStorage.removeItem('cart[0]')
 }
