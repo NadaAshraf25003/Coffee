@@ -811,12 +811,6 @@ font-size: 1.3rem;
     .book .book1 .person, .book .book3 .hour{
         width: 78%;
     }
-    .book .book2 .date-picker{
-        width: 250px;
-    }
-    .book .book2 .date-picker *{
-        font-size: 15px;
-    }
 }
 @media(max-width: 430px){
     .book{
@@ -840,12 +834,6 @@ font-size: 1.3rem;
     } 
     .book .book1 .person, .book .book3 .hour{
         width: 74%;
-    }
-    .book .book2 .date-picker{
-        width: 200px;
-    }
-    .book .book2 .date-picker *{
-        font-size: 12px;
     }
     .book .btn button{
         padding: 1rem 1.5rem;
