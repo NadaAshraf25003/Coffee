@@ -12,8 +12,8 @@ const imagess = document.querySelectorAll('.slider img'); // Get all images
 let currentIndex = 0;
 
 function autoScroll() {
-    currentIndex = (currentIndex + 1) % images.length; // Increment index
-    const targetElement = images[currentIndex]; // Get next image
+    currentIndex = (currentIndex + 1) % imagess.length; // Increment index
+    const targetElement = imagess[currentIndex]; // Get next image
     targetElement.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
 }
 
