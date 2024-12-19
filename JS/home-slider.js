@@ -8,7 +8,7 @@ document.querySelectorAll('.slider-nav a').forEach(link => {
         }
     });
 });
-const images = document.querySelectorAll('.slider img'); // Get all images
+const imagess = document.querySelectorAll('.slider img'); // Get all images
 let currentIndex = 0;
 
 function autoScroll() {
