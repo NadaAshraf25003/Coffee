@@ -940,7 +940,19 @@
     <script src="JS/index.js"></script>
     <script src="JS/ALL.js"></script>
     <script src="JS/Gallary.js"></script>
-
+<!--     script for home slider    -->
+    <script>
+    document.querySelectorAll('.slider-nav a').forEach(link => {
+        link.addEventListener('click', event => {
+            event.preventDefault(); // Prevent the default scroll behavior
+            const target = event.target.getAttribute('href').substring(1); // Get the target ID
+            const targetElement = document.getElementById(target); // Find the element
+            if (targetElement) {
+                targetElement.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' }); // Scroll only the slider
+            }
+        });
+    });
+    </script>
     <!-- Animation start -->
 <!--     <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
 <!--     <script>
