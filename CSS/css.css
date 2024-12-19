@@ -944,7 +944,7 @@ header .search-bar-container label:hover{
         align-items: center;
         flex-wrap: wrap;
         margin: 5rem auto; 
-    
+        overflow-x: hidden;
     }
     
     .home_slider .left{
@@ -1033,7 +1033,21 @@ header .search-bar-container label:hover{
            
         }
     }
-    
+    @media (min-width: 690px) and (max-width: 735px) {
+        .home_slider .slider-nav {
+        margin-right: 1rem
+        }   
+    }
+    @media (min-width: 650px) and (max-width: 690px) {
+        .home_slider .slider-nav {
+        margin-right: 2rem
+        }   
+    }
+ @media (min-width: 603px) and (max-width: 650px) {
+        .home_slider .slider-nav {
+        margin-right: 3.2rem
+        }   
+    }
     @media (min-width: 900px) and (max-width: 1140px) {
         .home_slider .left{
             max-width: 28rem;
